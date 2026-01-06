@@ -1,6 +1,6 @@
 const express = require('express');
 const router = express.Router();
-const connectToDatabase = require('../db'); // Assuming the db.js is in the parent directory
+const connectToDatabase = require('../models/db'); // Assuming the db.js is in the parent directory
 
 // GET all gifts
 router.get('/', async (req, res) => {
